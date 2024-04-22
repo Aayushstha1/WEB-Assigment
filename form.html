@@ -16,12 +16,12 @@
         </style>
     <h1 style>Basic HTML Forms</h1>
 
+    <h2 style="background-color:DodgerBlue;"><b>Your personal details</b></h2>
 
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
+  <input type="text" id="fname" name="fname" value="" placeholder="Enter your first name"><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
-  <input type="submit" value="Submit">
+  <input type="text" id="lname" name="lname" value="" placeholder="Enter your last name"><br><br>
 </form> 
     <h2 style="background-color:DodgerBlue;"><b>Choose your favorite Web language:</b></h2>
 
@@ -36,13 +36,24 @@
 <label for="PHP">PHP</label>
 </form> 
     <h2 style="background-color:DodgerBlue;">Hobbies</h2>
- 
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Travelling">
+    <form>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Travelling">
   <label for="vehicle1"> Travelling</label><br>
   <input type="checkbox" id="vehicle2" name="vehicle2" value="Singing">
   <label for="vehicle2">Singing</label><br>
   <input type="checkbox" id="vehicle3" name="vehicle3" value="Dancing">
   <label for="vehicle3"> Dancing</label><br><br>
+
+
+<form >
+  <label for="Language">Choose a Language:</label>
+  <select id="Language" name="Language" size="">
+    <option value="volvo">HTML</option>
+    <option value="saab">JAVA</option>
+    <option value="fiat">DSA</option>
+    <option value="audi">SAD</option>
+  </select>
+</form><br><br>
   <input type="submit" value="Submit">
 </form> <br><br>
 
