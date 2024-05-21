@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*---------------------------- navbar ------------------------- */
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+#logo{
+    width: 200px;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#menu-items{
+    display: flex;
+    gap: 30px;
+    align-items: left;
+}
+
+#nav-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.btns{
+    background-color: blue;
+    color: white;
+    padding:10px 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.ri-menu-line{
+    font-size: 25px;
+}
+
