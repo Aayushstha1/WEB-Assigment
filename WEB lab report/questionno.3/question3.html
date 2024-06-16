@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+        <style>
+        
+        table,th,td{
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+         
+        }
+        .verti{
+               writing-mode: vertical-rl;
+            transform: rotate(180 deg);
+            font-size: 40px;
+        }
+        .main{
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+    .li{
+            /* border: 3px solid; */
+            border-top: 3px solid;
+        }
+     .verti,.day,th{
+        border: 3px solid;
+     }
+     .top{
+        border: 1px solid;
+     }
+    </style>
+    </head>
+    <body>
+        <table class="main">
+            <tr>
+                <th colspan="2" class="top">Time</th>
+
+                <th class="top">7:<sup>30</sup>- 8:<sup>00</sup></th>
+                <th class="top">8:<sup>30</sup>- 8:<sup>00</sup></th>
+                <th class="top">8:<sup>30</sup>- 9:<sup>00</sup></th>
+                <th class="top">9:<sup>30</sup>- 9:<sup>00</sup></th>
+                <th class="top">9:<sup>30</sup>- 10:<sup>00</sup></th>
+                <th class="top">10:<sup>30</sup>- 10:<sup>00</sup></th>
+                <th class="top">10:<sup>30</sup>- 11:<sup>00</sup></th>
+                <th class="top">11:<sup>30</sup>- 11:<sup>00</sup></th>
+                <th class="top">11:<sup>30</sup>- 12:<sup>00</sup></th>
+            </tr>
+            <tr>
+                <th colspan="2" class="top">Duration</th>
+
+                <th class="top">30m</th>
+                <th class="top">30m</th>
+                <th class="top">30m</th>
+                <th class="top">30m</th>
+                <th class="top">30m</th>
+                <th class="top">30m</th>
+                <th class="top">30m</th>
+                <th class="top">30m</th>
+                <th class="top">30m</th>
+            </tr>
+            <tr>
+                <th colspan="2" class="top">Period</th>
+                <th class="top">0</th>
+                <th class="top">1</th>
+                <th class="top">2</th>
+                <th class="top">3</th>
+                <th class="top">4</th>
+                <th class="top">0</th>
+                <th class="top">5</th>
+                <th class="top">6</th>
+                <th class="top">7</th>
+            </tr>
+            <tr>
+                <th rowspan="3" class="day">Mon</th>
+                <td class="li">1</td>
+                <th rowspan="15" class="verti" class="text">Assembly &
+                    regestiration in class</th>
+                <th colspan="2" rowspan="3">Mathematics</th>
+                <th colspan="2" rowspan="3">Creative Arts & Design</th>
+                <th rowspan="15" class="verti" class="text">Break</th>
+                <th rowspan="3">Computing</th>
+                <th rowspan="3" colspan="2">Twi</th>
+            </tr>
+            <tr class="tab">
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th rowspan="3" class="day">Tue</th>
+                <td class="li">1</td>
+                <th colspan="2" rowspan="3">English Language<br>(jolly Phonics)</th>
+                <th colspan="2" rowspan="3">  Twi</th>
+                <th rowspan="3">RME</th>
+                <th colspan="2" rowspan="3"> OWOP</th>
+            </tr>
+            <tr>
+                <td>2</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+
+            </tr>
+            <tr>
+                <th rowspan="3" class="day">Wed</th>
+                <td class="li">1</td>
+                <th colspan="2" rowspan="3">English Language</th>
+                <th colspan="2" rowspan="3"> Creative Arts & Design</th>
+                <th rowspan="3">History</th>
+                <th colspan="2" rowspan="3"> RME</th>
+                <!-- <th colspan="2"> History</th> -->
+            </tr>
+            <tr>
+                <td>2</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+
+            </tr>
+            <tr>
+                <th rowspan="3" class="day">Thurs</th>
+                <td class="li">1</td>
+                <th colspan="2" rowspan="3">English Language</th>
+                <th colspan="2" rowspan="3"> Science</th>
+                <th rowspan="3"> OWOP</th>
+                <th colspan="2" rowspan="3"> Computing</th>
+            </tr>
+            <tr>
+                <td>2</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+
+            </tr>
+            <tr>
+                <th rowspan="3" class="day">Fri</th>
+                <td class="li">1</td>
+                <th colspan="2" rowspan="3">Science</th>
+                <th colspan="2" rowspan="3">Mathematics</th>
+                <th rowspan="3"> History</th>
+                <th colspan="2" rowspan="3"> English Language</th>
+            </tr>
+            <tr>
+                <td>5</td>
+
+            </tr>
+            <tr>
+                <td style="border-bottom: 3px solid;">6</td>
+
+            </tr>
+        </table>
+    </body>
+</html>

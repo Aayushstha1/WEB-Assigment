@@ -1,0 +1,13 @@
+<customers-data>
+    <customer>
+        <id>1</id>
+        <first-name>Aayush</first-name>
+        <last-name>Stha</last-name>
+        <contact>980111111</contact>
+        <address>
+            <email>aayush@gmail.com</email>
+            <location>Jhapa</location>
+        </address>
+    </customer>
+    
+</customers-data>
